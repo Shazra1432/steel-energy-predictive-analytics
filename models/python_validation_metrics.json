@@ -1,0 +1,74 @@
+{
+  "model_origin": "Independent Python scikit-learn RandomForestClassifier (NOT SAS Viya forest)",
+  "model_parameters": {
+    "n_estimators": 100,
+    "max_depth": 15,
+    "min_samples_leaf": 5,
+    "max_features": "sqrt",
+    "random_state": 12345
+  },
+  "train_rows": 24057,
+  "test_rows": 10311,
+  "train_from": "2018-01-08 00:00:00",
+  "train_through": "2018-09-15 14:00:00",
+  "test_from": "2018-09-15 14:15:00",
+  "test_through": "2018-12-31 23:45:00",
+  "classes": [
+    "Light_Load",
+    "Maximum_Load",
+    "Medium_Load"
+  ],
+  "accuracy_test": 0.7938124333236349,
+  "macro_f1_test": 0.7283690166997218,
+  "weighted_f1_test": 0.7991831641204239,
+  "confusion_matrix": [
+    [
+      5131,
+      20,
+      420
+    ],
+    [
+      42,
+      1208,
+      778
+    ],
+    [
+      44,
+      822,
+      1846
+    ]
+  ],
+  "classification_report": {
+    "Light_Load": {
+      "precision": 0.983515430323941,
+      "recall": 0.9210195656076109,
+      "f1-score": 0.9512421208750463,
+      "support": 5571.0
+    },
+    "Maximum_Load": {
+      "precision": 0.5892682926829268,
+      "recall": 0.5956607495069034,
+      "f1-score": 0.592447278077489,
+      "support": 2028.0
+    },
+    "Medium_Load": {
+      "precision": 0.6064388961892248,
+      "recall": 0.6806784660766961,
+      "f1-score": 0.6414176511466296,
+      "support": 2712.0
+    },
+    "accuracy": 0.7938124333236349,
+    "macro avg": {
+      "precision": 0.7264075397320308,
+      "recall": 0.7324529270637368,
+      "f1-score": 0.7283690166997218,
+      "support": 10311.0
+    },
+    "weighted avg": {
+      "precision": 0.8067949613384567,
+      "recall": 0.7938124333236349,
+      "f1-score": 0.7991831641204239,
+      "support": 10311.0
+    }
+  }
+}
